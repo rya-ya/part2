@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__.'/..//lib/mysqli.php';
 
 function dropTable($link){
   $dropTableSql = 'DROP TABLE IF EXISTS reviews';
